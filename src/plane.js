@@ -1,4 +1,7 @@
-'use strict'; 
+'use strict';
+
 class Plane {
-    land(){};
-}; 
+  land(airport){
+    airport.clearForLanding(this)
+  };
+};
